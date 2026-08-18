@@ -34,7 +34,7 @@ export function SiteHeader() {
       <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <a href="#top" className="font-display text-xl font-bold tracking-widest">
-            SVL<span className="text-primary">.</span>INDUSTRIES
+            SVL INDUSTRIES
           </a>
 
           <nav className="hidden items-center gap-7 lg:flex">
