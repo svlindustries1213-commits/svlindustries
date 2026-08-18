@@ -3,6 +3,7 @@ import { Check, Mail, MapPin, Phone } from "lucide-react";
 
 import heroMould from "@/assets/hero-mould.jpg";
 import ctaSteel from "@/assets/cta-steel.jpg";
+import svlLogo from "@/assets/svl-logo.png";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { ContactForm } from "@/components/site/ContactForm";
 import {
@@ -424,8 +425,18 @@ function Index() {
       <footer className="bg-steel pt-14">
         <div className="mx-auto grid max-w-6xl gap-10 px-6 pb-10 sm:grid-cols-3">
           <div>
-            <span className="font-display text-lg tracking-widest text-steel-foreground">
-              SVL<span className="text-primary">.</span>INDUSTRIES
+            <span className="inline-flex items-center gap-3">
+              <img
+                src={svlLogo}
+                alt="SVL Industries logo"
+                loading="lazy"
+                width={816}
+                height={816}
+                className="h-9 w-9 object-contain"
+              />
+              <span className="font-display text-lg tracking-widest text-steel-foreground">
+                SVL INDUSTRIES
+              </span>
             </span>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-steel-foreground/60">
               Precision tyre mould manufacturing and servicing for the global tyre industry.
