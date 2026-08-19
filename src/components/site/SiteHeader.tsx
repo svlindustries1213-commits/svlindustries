@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Mail, MapPin, Menu, X } from "lucide-react";
 
-import svlLogo from "@/assets/svl-logo.png";
+import svlLogo from "@/assets/svl-logo.png.asset.json";
 
 const nav = [
   { href: "#services", label: "Services" },
