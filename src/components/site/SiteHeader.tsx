@@ -35,15 +35,14 @@ export function SiteHeader() {
 
       <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <a href="#top" className="flex items-center gap-3">
+          <a href="#top" className="flex items-center">
             <img
-              src={svlLogo}
+              src={svlLogo.url}
               alt="SVL Industries logo"
-              width={816}
-              height={816}
-              className="h-10 w-10 object-contain"
+              width={1024}
+              height={683}
+              className="h-12 w-auto object-contain md:h-14"
             />
-            <span className="font-display text-xl font-bold tracking-widest">SVL INDUSTRIES</span>
           </a>
 
           <nav className="hidden items-center gap-7 lg:flex">
