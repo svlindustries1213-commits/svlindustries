@@ -425,18 +425,15 @@ function Index() {
       <footer className="bg-steel pt-14">
         <div className="mx-auto grid max-w-6xl gap-10 px-6 pb-10 sm:grid-cols-3">
           <div>
-            <span className="inline-flex items-center gap-3">
+            <span className="inline-flex rounded-sm bg-white px-4 py-3">
               <img
-                src={svlLogo}
+                src={svlLogo.url}
                 alt="SVL Industries logo"
                 loading="lazy"
-                width={816}
-                height={816}
-                className="h-9 w-9 object-contain"
+                width={1024}
+                height={683}
+                className="h-14 w-auto object-contain"
               />
-              <span className="font-display text-lg tracking-widest text-steel-foreground">
-                SVL INDUSTRIES
-              </span>
             </span>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-steel-foreground/60">
               Precision tyre mould manufacturing and servicing for the global tyre industry.
