@@ -3,7 +3,7 @@ import { Check, Mail, MapPin, Phone } from "lucide-react";
 
 import heroMould from "@/assets/hero-mould.jpg";
 import ctaSteel from "@/assets/cta-steel.jpg";
-import svlLogo from "@/assets/svl-logo.png";
+import svlLogo from "@/assets/svl-logo.png.asset.json";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { ContactForm } from "@/components/site/ContactForm";
 import {
